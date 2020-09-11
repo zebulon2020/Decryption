@@ -1,4 +1,4 @@
-[Chinese(中文)](README_ZH.md)  [English](README.md)
+[Chinese(中文)](README_zh.md)  [English](README.md)
 
 A simple C++ program, a small classroom experiment, to implement a simple data encryption exchange.
 
