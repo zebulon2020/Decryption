@@ -73,7 +73,7 @@ void Cryption::getCryption(char* p){
     while(*ptr!='\0'){
         /* 大小写转换 */
         /* case sensitive conversion */
-        if(*ptr>'a' && *ptr<'z'){
+        if(*ptr>='a' && *ptr<='z'){
             *ptr = char(*ptr + 'A' - 'a');
         }
         else{

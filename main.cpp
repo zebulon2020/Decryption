@@ -12,7 +12,7 @@ void Decryption::getDecryption(char* s){
     int len = 0;  // 字符串的长度
     while(*ptr!='\0'){
         /* 大小写转换 */
-        if(*ptr>'a' && *ptr<'z'){
+        if(*ptr>='a' && *ptr<='z'){
             *ptr = char(*ptr + 'A' - 'a');
             len++;
         }
